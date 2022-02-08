@@ -8,4 +8,4 @@ function sumnum(num1,num2){
 
 const result = sumnum(16,5)
 
-console.log(result)
+document.getElementById("messsageBox").value = `Your number is: ${result}`
